@@ -42,11 +42,7 @@ import joblib
 joblib.load('music-recommender.joblib')
 predictions = model.predict([[21, 1]])
 predictions
-```
-
-    C:\Users\q1\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:464: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
-      warnings.warn(
-    
+  
 
 
 
@@ -76,14 +72,10 @@ tree.export_graphviz(model, out_file= 'music-recommender.dot',
                     label= 'all',
                     rounded= True,
                     filled= True)
-```
 
 
-```python
-
-```
 
 
-```python
 
-```
+
+
